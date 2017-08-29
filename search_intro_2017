@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>One column with CTA</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800|Noto+Sans:400i" type="text/css" rel="stylesheet">
+	  <style type="text/css">
+            @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800|Noto+Sans:400i');
+        </style>
+    <style type="text/css">
+      /* -------------------------------------
+      GLOBAL
+      ------------------------------------- */
+      /* Let's make sure all tables have defaults */
+      /* -------------------------------------
+      BODY & CONTAINER
+      ------------------------------------- */
+      /* -------------------------------------
+      HEADER, FOOTER, MAIN
+      ------------------------------------- */
+      /* -------------------------------------
+      GRID AND COLUMNS
+      ------------------------------------- */
+      @media only screen and (max-width: 480px)  {
+        .full {
+          display:block !important;
+          width:100%;
+          text-align:center;
+        }
+      }
+      /* -------------------------------------
+      TYPOGRAPHY
+      ------------------------------------- */
+      /* -------------------------------------
+      LINKS & BUTTONS
+      ------------------------------------- */
+      /* -------------------------------------
+      FORMS
+      ------------------------------------- */
+      /* -------------------------------------
+      OTHER STYLES THAT MIGHT BE USEFUL
+      ------------------------------------- */
+      /* -------------------------------------
+      Header
+      ------------------------------------- */
+      /* -------------------------------------
+      RESPONSIVE AND MOBILE FRIENDLY STYLES
+      ------------------------------------- */
+       @media only screen and (max-width: 450px) {
+       .link-block {
+        	font-size: 3vw !important;
+      	padding: 0px !important;
+           line-height: 10px !important;
+        }
+       }
+      @media only screen and (max-width: 640px) {
+          h2, h4 {
+          font-weight: 600 !important;
+          margin: 0px 0 5px !important;
+        }
+        h1 {
+          font-size: 10px !important;
+          margin: 0px 0px 10px;
+          font-weight: 600 !important;
+        }
+        h2 {
+          font-size: 24px !important;
+          font-weight: normal;
+        }
+        h3 {
+          font-size: 18px !important;
+          font-weight: normal;
+        }
+        .signature-text {
+          font-size: 16px !important;
+          font-weight: 400;}
+        .signature-link {
+          font-size: 16px !important;
+          color: #0083d6;
+          font-weight: 400;
+        }
+        h2.widgets {
+          font-size: 22px !important;
+          padding: 0px;
+        }
+        .container {
+          width: 100% !important;
+        }
+        .content, .content-wrapper {
+          padding: 0px 10px !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;height:100%;line-height:1.6;background-color:#ffffff;width:100% !important;">
+    <!--[if mso]>
+      <style type="text/css">
+        body, table, td, p, h1, h2, h3, h4, h5, li, span, a {font-family: Arial, Helvetica, sans-serif !important;}
+                td.cal-right {width:400px !important;margin:20px 10px !important;}
+        		td.cal-left {width:100px !important;margin:20px !important;}
+        		.cta {width:600px;}
+        		.button-b, .button-db, .button-dg, .cta-button, .cta-text, .note-text {margin:20px !important;}
+        		.content-block, .img-main, .note {margin-bottom:20px !important;}
+      </style>
+    <![endif]-->
+    <table class="body-wrap" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;background-color:#ffffff;width:100%;">
+      <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+        <td style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;"></td>
+        <td class="container" width="600" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;display:block !important;max-width:600px !important;margin:0 auto !important;clear:both !important;">
+          <div class="content" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:600px;margin:0 auto;display:block;padding:0px 20px 20px;">
+            <table class="main" width="100%" cellpadding="0" cellspacing="0" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;background:#fff;">
+              <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                <td class="header" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;line-height:1.5em;color:#444;vertical-align:top;width:100%;margin-bottom:20px;font-size:16px;color:#fff;font-weight:800;padding:20px;text-align:center;border-radius:3px 3px 0 0;background:#ffffff;">
+                  <p class="header-text" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;font-size:11px;color:#003f87;letter-spacing:.6em;text-transform:uppercase;font-weight:900;">Western Washington University</p>
+                  <img src="https://admissions.wwu.edu/files/Email%20Images/2017-2018/2017_email_header_general5.jpg" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;margin:0 auto;padding:0;max-width:100%;min-width:100%;width:100%;text-decoration:none;border:0px;">
+                </td>
+              </tr>
+              <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                <td class="content-wrap" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:20px;">
+                  <table width="100%" cellpadding="0" cellspacing="0" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;">
+                        <h2 style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;margin:0px 0 10px;font-size:28px;font-weight:700;color:#444;line-height:1.35em;">Hi [Contact.First Name],</h2>
+                        <h3 style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;color:#444;margin:0px 0 10px;font-size:22px;font-weight:400;color:#003f87;line-height:1.35em;padding:0px;">We know we’re not the only college or university in your inbox, so we’ll keep it short.</h3>
+                      </td>
+                    </tr>
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;">
+                        <p style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;">We think you and <a href="https://admissions.wwu.edu/" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;">Western Washington University</a> could be a great fit. With a friendly 15,000-student community, internationally-renowned faculty, exceptional academic programs and a beautiful location with easy access to the great outdoors, you’ll find plenty of ways to connect here.</p>
+                        <!--[if mso]>
+                          <tr>
+                            <td height="10px" style="height:10px;"></td>
+                          </tr>
+                        <![endif]-->
+                        <p style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;">We’d love to learn more about you and we’d like to share more with you about Western, one of the top-ranked universities in the Pacific Northwest. </p>
+                      </td>
+                    </tr>
+                    <!--FORM-->
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;">
+                        <table class="form-container" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;background-color:#ffffff;border-color:#339cde;border:4px solid #339cde;border-radius:0px;padding:20px;text-align:left;color:#333;margin:5px 0px 10px;width:100%;">
+                          <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                            <td style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;">
+                              <!--[if mso]>
+                                <table>
+                                  <tr>
+                                    <td>
+                                    </td>
+                                  </tr>
+                                </table>
+                              <![endif]-->
+                              <h4 class="form" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;font-size:20px;text-transform:uppercase;letter-spacing:.02em;font-weight:700;line-height:1.5em;margin:0px;color:#444;font-size:24px;font-weight:800;text-align:center;margin:0px 0px 10px;">
+                                SIGN UP TO LEARN MORE ABOUT WESTERN
+                                        </h4>
+                              <p class="form" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;font-size:18px;text-align:center;">
+                                [Contact.First Name] [Contact.Last Name]<br style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                                [Contact.Address]<br style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                                [Contact.City], [Contact.State]  [Contact.Zip]  [Contact.Nation]<br style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                                [Contact.Email]
+                                                    </p>
+                              <!--[if mso]>
+                                <table>
+                                  <tr>
+                                    <td>
+                                      <p>&nbsp;</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              <![endif]-->
+                              <!--BUTTONS-->
+                            </td>
+                          </tr>
+                          <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                            <td class="content-block" align="center" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;padding:5px;">
+                              <table style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                                <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                                  <td class="button-b" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;background-color:#0083d6;border-color:#0083d6;border:2px solid #0083d6;border-radius:10px;padding:15px;text-align:center;">
+                                    <a class="button-text" href="https://admissions.wwu.edu/forms/psat-autofill?id=1038&Search_ID=[Contact.Search_ID]&email_address=[Contact.Email]&first_name=[Contact.First%20Name]" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;font-weight:600;display:block;color:#ffffff;font-size:18px;text-decoration:none;text-transform:uppercase;letter-spacing:.02em;">my address above is correct</a>
+                                  </td>
+                                </tr>
+                                <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                                  <td height="10px" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;"></td>
+                                </tr>
+                                <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                                  <td class="button-db" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;background-color:#003f87;border-color:#003f87;border:2px solid #003f87;border-radius:10px;padding:15px;text-align:center;">
+                                    <a class="button-text" href="https://www.applyweb.com/public/input?s=wwuinq" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;font-weight:600;display:block;color:#ffffff;font-size:18px;text-decoration:none;text-transform:uppercase;letter-spacing:.02em;">update my mailing address</a>
+                                  </td>
+                                </tr>
+                                <!--[if mso]>
+                                  <tr>
+                                    <td height="10px" style="height:10px;"></td>
+                                  </tr>
+                                <![endif]-->
+                              </table>
+                            </td>
+                          </tr>
+                          <!--/BUTTONS-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--/FORM-->
+                    <!--[if mso]>
+                      <tr>
+                        <td height="10px" style="height:10px;"></td>
+                      </tr>
+                    <![endif]-->
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;">
+                        <h4 class="title" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;font-size:20px;text-transform:uppercase;letter-spacing:.02em;font-weight:700;line-height:1.5em;margin:0px;color:#444;font-size:22px;text-align:center;">
+                          Top reasons students choose western
+                                         </h4>
+                        <ol class="list" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;margin-left:20px;margin-bottom:10px;">
+                          <li style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;margin-left:5px;list-style-position:inside;margin:10px 0px !important;">Western’s <a href="http://www.wwu.edu/about/recognition" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;">academic reputation</a> and availability of <a href="https://www.wwu.edu/majors" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;">specific majors</a>
+                          </li>
+                          <li style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;margin-left:5px;list-style-position:inside;margin:10px 0px !important;"><a href="https://admissions.wwu.edu/tuition-expenses" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;">Overall cost to their family</a></li>
+                          <li style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;margin-left:5px;list-style-position:inside;margin:10px 0px !important;">Size, <a href="https://admissions.wwu.edu/bellingham" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;">location</a>, and student life</li>
+                        </ol>
+                      </td>
+                    </tr>
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;">
+                        <p style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;">If you have any questions about Western, or your college search in general, please don't hesitate to contact us. We're here to help!</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="signature" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;line-height:1.5em;width:100%;clear:both;color:#444;padding:0px;background-color:#ffffff;font-size:16px;margin:10px 0px 15px;">
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;">
+                        <p class="signature-text" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;margin-bottom:16px;font-weight:normal;line-height:1.5em;font-size:16px;color:#444;"><span style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;font-size:18px;font-weight:700;">Your Admissions Team</span><br style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                          Western Washington University<br style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                          <a href="tel:+13606503440" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;font-size:18px;">(360) 650-3440</a><br style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                          <a href="mailto:admissions.counselors@wwu.edu" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;font-size:18px;">admissions.counselors@wwu.edu</a></p>
+                      </td>
+                    </tr>
+                    <!--BUTTON LINKS-->
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;text-align:center;">
+                        <table class="buttonbar" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                          <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                            <td class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;">
+                              <a href="https://admissions.wwu.edu/visit" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;"><img src="https://admissions.wwu.edu/files/Email%20Images/2016-2017/visit.jpg" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;margin-bottom: 10px;"></a>
+                            </td>
+                            <td class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;">
+                              <a href="https://admissions.wwu.edu/apply" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;"><img src="https://admissions.wwu.edu/files/Email%20Images/2016-2017/academics.jpg" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;margin-bottom: 10px;"></a>
+                            </td>
+                            <td class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;">
+                              <a href="https://admissions.wwu.edu/academics" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;"><img src="https://admissions.wwu.edu/files/Email%20Images/2017-2018/academics-2.jpg" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;margin-bottom: 10px;"></a>
+                            </td>
+                            <td class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;">
+                              <a href="https://admissions.wwu.edu/bellingham" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;"><img src="https://admissions.wwu.edu/files/Email%20Images/2016-2017/student-life.jpg" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;margin-bottom: 10px;"></a>
+                            </td>
+                          </tr>
+                          <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                            <td style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;text-align:center;">
+                              <a href="https://admissions.wwu.edu/visit" class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;font-weight:600;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;text-align:center;">VISIT</a>
+                            </td>
+                            <td style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;text-align:center;">
+                              <a href="https://admissions.wwu.edu/apply" class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;font-weight:600;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;text-align:center;">APPLY</a>
+                            </td>
+                            <td style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;text-align:center;">
+                              <a href="https://admissions.wwu.edu/academics" class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;font-weight:600;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;text-align:center;">ACADEMICS</a>
+                            </td>
+                            <td style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;text-align:center;">
+                              <a href="https://admissions.wwu.edu/bellingham" class="link-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;font-weight:600;width:25%;max-width:130px;padding:5px;text-align:center;font-weight:700;color:#0083d6;text-decoration:none;text-align:center;">STUDENT LIFE</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!--BUTTON LINKS-->
+                  </table>
+                  <!--[if mso]>
+                    <br>
+                  <![endif]-->
+                  <table class="widgets" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;width:100%;clear:both;color:#999;padding:20px 0px 0px;background-color:#ffffff;border-top:4px solid #e9e9e9;">
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="aligncenter content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;text-align:center;">
+                        <a href="https://www.facebook.com/westernwashingtonuniversity/" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color:#3b5998;"><img alt="Facebook logo" src="https://admissions.wwu.edu/files/facebook-01.png" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;-ms-interpolation-mode:bicubic;border:0;height:auto;outline:none;text-decoration:none;width:100%;padding:0px;border:0px;width:60px;"></a>
+                      </td>
+                      <td class="aligncenter content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;text-align:center;">
+                        <a href="http://instagram.com/ourwestern" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color:#bc2a8d;"><img alt="Instagram logo" src="https://admissions.wwu.edu/files/instagram-01.png" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;-ms-interpolation-mode:bicubic;border:0;height:auto;outline:none;text-decoration:none;width:100%;padding:0px;border:0px;width:60px;"></a>
+                      </td>
+                      <td class="aligncenter content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;text-align:center;">
+                        <a href="https://www.snapchat.com/add/wwuadmissions" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color:#000;"><img alt="Snapchat logo" src="https://admissions.wwu.edu/files/snapchat-01.png" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;-ms-interpolation-mode:bicubic;border:0;height:auto;;outline:none;text-decoration:none;width:100%;padding:0px;border:0px;width:60px;"></a>
+                      </td>
+                      <td class="aligncenter content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;text-align:center;">
+                        <a href="http://twitter.com/wwuadmit" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color:#00aced;"><img alt="Twitter logo" src="https://admissions.wwu.edu/files/twitter-01.png" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;-ms-interpolation-mode:bicubic;border:0;height:auto;outline:none;text-decoration:none;width:100%;padding:0;border:0px;width:60px;"></a>
+                      </td>
+                      <td class="aligncenter content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;text-align:center;">
+                        <a href="http://admissions.wwu.edu/slideshow" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color:#ff0084;"><img alt="Flickr logo" src="https://admissions.wwu.edu/files/flickr-01.png" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;max-width:100%;-ms-interpolation-mode:bicubic;border:0;height:auto;outline:none;text-decoration:none;width:100%;padding:0;border:0px;width:60px;"></a>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="footer" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;width:100%;clear:both;color:#777;padding:30px 0px;background-color:#ffffff;border-top:4px solid #e9e9e9;">
+                    <tr style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;">
+                      <td class="content-block" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;padding:0px 0px 20px;font-size:12px;line-height:1.35em;">
+                        <p style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;font-size:12px;line-height:1.35em;">Western Washington University (WWU), in compliance with applicable laws and in furtherance of its commitment to fostering an environment that welcomes and embraces diversity, does not discriminate on the basis of race, color, creed, religion, national origin, sex, disability, age, veteran status, sexual orientation, gender identity or expression, marital status or genetic information in its programs or activities, including employment, admissions, and educational programs. See WWU's Policy on Providing Equal Opportunity and Nondiscrimination. Inquiries may be directed to the Vice Provost for Equal Opportunity & Employment Diversity, Title IX Coordinator, Equal Opportunity Office, Western Washington University, Old Main 345, MS 9021, 516 High Street, Bellingham, WA 98225; 360.650.3307 (voice) or 711 (Washington Relay); <a href="mailto:eoo@wwu.edu" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;color:#999;font-size:12px;line-height:1.35em;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color: #33659f;text-decoration: none; font-weight:600;">eoo@wwu.edu</a>.</p>
+                        <p style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;color:#444;margin-bottom:16px;font-weight:normal;line-height:1.5em;font-size:12px;line-height:1.35em;">WWU is committed to providing reasonable accommodations to qualified individuals with disabilities upon request. To request an accommodation, please contact disAbility Resources for Students, Old Main 120, 360.650.3083 (voice) or 360.650.7175 (VP), <a href="mailto:drs@wwu.edu" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;color:#999;font-size:12px;line-height:1.35em;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color: #33659f;text-decoration: none; font-weight:600;">drs@wwu.edu</a>. One week advance notice appreciated. To request this document in an alternate format, please contact the Associate Director of Admissions, Office of Admissions, 360.650.3440, <a href="mailto:admit@wwu.edu" style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;color:#0083d6;text-decoration:none;font-weight:600;color:#999;font-size:12px;line-height:1.35em;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color: #33659f;text-decoration: none; font-weight:600;">admit@wwu.edu</a>.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+        <td style="margin:0;padding:0;font-family:'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing:border-box;font-size:16px;line-height:1.5em;color:#444;vertical-align:top;"></td>
+      </tr>
+    </table>
+  </body>
+</html>
